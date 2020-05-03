@@ -57,7 +57,7 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Developer Chandu',
+  title: 'JayaChandrika',
   description: 'A Blog to learn Programming with Fun',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ts-logo-c.png',
