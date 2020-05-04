@@ -49,7 +49,7 @@ The bananas eaten by monkeys can’t be used by Lions and crocodiles, the meat f
 In similar way, if we are building an application that has services like a database and framework etc, The libraries and dependencies(food) used by databases (cassandra, postgresql, mongodb etc) may not be compatible/suitable for frameworks (strapi, nodejs express etc).  
 <br/>
 
-> Eg:MongoDb version 4.26 might not be compatible/suitable for NodeJs version 4.16.4
+> Eg: MongoDb version 4.26 might not be compatible/suitable for NodeJs version 4.16.4
 
 <br/> 
 To make it easy to develop, run and maintain an application and to operate on all the platforms we came up docker.
@@ -61,6 +61,8 @@ The problem in zoo example can be solved by providing each animal, a _separate b
 In docker we have those separate boundaries called **_containers_**. We place each service in one container with all the libraries and dependencies required for it.
 
 ![Hopper The Rabbit](./img/docker-2.jpg)
+
+<br/>
 
 > Container is a completely isolated environment with their own processes, network interfaces and their own mounts.
 
