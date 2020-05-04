@@ -56,6 +56,8 @@ To make it easy to develop, run and maintain an application and to operate on al
 
 ![Hopper The Rabbit](./img/docker-1.jpg)
 
+<br/>
+
 The problem in zoo example can be solved by providing each animal, a _separate boundary_ with the required food and environment.
 
 In docker we have those separate boundaries called **_containers_**. We place each service in one container with all the libraries and dependencies required for it.
@@ -75,6 +77,8 @@ Well, Each VM has a separate _OS_ along with libraries, dependencies and applica
 Whereas Containers share the same OS, considerably less overload and utilization than VMs. Hence they are just the darlings preferred for application development, deployment and management.
 
 ![Hopper The Rabbit](./img/docker-3.png)
+
+<br/>
 
 ## **Images**
 
